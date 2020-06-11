@@ -1,0 +1,14 @@
+{
+  "name": "test-js-sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "start": "tsnd --notify=false ./src/test.ts",
+    "watch": "tsnd --notify=false --respawn --ignore-watch node_modules --transpile-only ./src/test.ts"
+  }
+}
